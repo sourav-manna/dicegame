@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Dice | Game</title>
+</head>
+<body>
+    <div id="d1">
+        <h1>Game of Dice</h1>
+        <p id="p1">Target 30</p>
+        <table>
+            <tr>
+                <td><h2>Player 1</h2></td>
+                <td><h2>Player 2</h2></td>
+            </tr>
+            <tr>
+            <td>
+            <input type="text" value="0" id="s1" readonly>
+            </td>
+            <td>
+            <input type="text" value="0" id="s2" readonly>
+            </td>
+            </tr>
+        </table>
+        <br><br>
+        <input id="score" type="text" value="0" readonly>
+        <br>
+        <input id="b1" type="button" value="Roll the Dice" onclick="rolldice()">
+    </div>
+</body>
+</html>
